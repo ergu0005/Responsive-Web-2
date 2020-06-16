@@ -1,0 +1,357 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* HTML*/
+html{
+    max-width: 100%;
+    font-family:Montserrat,monospace;
+    background-color: #F7F7FF ;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2{
+    font-size:30px;
+}
+
+h3{
+    font-size:22px ;
+}
+
+p{
+    font-size:18px;
+}
+
+main{
+    
+    
+    margin-top:25px ;
+   
+}
+/*I set max-width to make visual container*/
+section{
+    max-width:90%; 
+    margin:0 auto;
+}
+/* I set max-width to make visual container*/
+header{
+    max-width:90%; 
+    margin:0 auto;
+}
+/* I made display:flex to put elements into necessary locations*/
+.body{
+    display:flex;
+    background-image: url(images/scooter.svg);
+    background-repeat: no-repeat, repeat;
+    background-size: 800px 400px;
+    height:680px ;
+    background-position:center;
+}
+/* INFO*/
+.info{
+    margin-top:80px ;
+    float: left;
+    width:50%;
+    color: #333131;
+    z-index:auto;
+}
+
+.info_text{
+    margin-top:40px;
+    font-weight:normal;
+}
+
+.info_text h3:nth-child(2){
+    margin-top:30px;
+}
+/* CONTACT FORM*/
+.contact-form{
+    margin: 0 auto;
+    margin-top: 80px;
+float: right;
+width:  30%; 
+background-color: #FFF;
+height:600px;
+border-radius:20px ;
+box-shadow: 5px 10px 15px gray;
+
+}
+
+.contact-form h2{
+   font-size:40px;
+   font-weight: bold;
+   margin-bottom:15px ;
+}
+
+.validate-form{
+    margin:20px 30px;
+    padding:20px 20px;
+}
+
+
+input {
+    width:100% ;
+    border:none;
+    border-radius:10px ;
+    margin:10px 0px;
+    padding:20px 10px ;
+    background-color:#F4F4F5 ;
+    font-size:18px;
+    opacity:80%;
+    box-shadow: #333131 5 10 15;
+}
+
+#checkbox{
+    padding:5px ;
+    width:5%;
+    border:2px solid black;
+}
+.contact-one{
+    font-size:1px;
+    font-weight: 400;
+}
+
+.contact-form button{
+   margin-top:10px;
+   padding:10px; 
+   width:100% ;
+   font-size:28px;
+   font-weight:bold ;
+   border:none;
+   border-radius:10px ;
+   background-color:#57EEAB;
+   
+}
+
+.contact2-form-p{
+    font-size: 15px;
+    font-weight:normal;
+    margin-top:15px;
+}
+
+.contact2-form-p span{
+    color:#FF8480;
+}
+/* FOOTER*/
+footer{
+    margin-top:40px ;
+ 
+    background-color: #FFFD8C;
+    width: 100%;
+}
+
+.footer{
+    padding:20px 0px ;
+    max-width:90%;
+    margin:0 auto ;
+}
+/*I made it to make display:flex and put elements in left and right*/
+.footer_container{
+    display:flex;
+    
+}
+
+.footer_contact_form{
+    float: left;
+    width:100%;
+}
+
+
+footer h3{
+    font-size:18px ;
+    font-weight:bold ;
+    margin-top:10px ;
+    color: #333131;
+
+}
+footer p{
+    font-size: 14px ;
+    font-weight:normal;
+    margin-top:10px ;
+    color: #333131;
+}
+
+.footer_contact_form{
+    display: flex;
+    margin-top:10px ;
+}
+/*I made it to separate button from elements in mob view*/
+.inputs{
+    display: flex;
+}
+
+.input2{
+    float: left;
+    width:80%;
+    padding:15px 8px; 
+    background-color: #F7F7FF;
+    opacity: 100%;
+    border-radius:15px;
+}
+
+.input3{
+    float: left;
+    width:90%;
+    padding:15px 8px; 
+    background-color: #F7F7FF;
+    opacity: 100%;
+    border-radius:15px;
+    margin-right:50px  ;
+}
+/*BUTTON*/
+.footer_btn{
+  width:20%;
+  padding:0px 0px;
+  font-size:24px;
+  font-weight: bold;
+  background-color:#FF8480;
+  color: #F7F7FF;
+  border: none;
+  border-radius:10px ;
+  height:50px ;
+  margin:10px 0px ;
+}
+
+.footer_icons{
+    width:50%; 
+    display: flex;
+    
+}
+.footer_icons_2{
+    
+    margin: 0 auto;
+    float: right;
+}
+.icons{
+    margin-right:30px;
+    display: inline-block;
+    height:30px;
+    width:30px;
+}
+
+
+/*I made this additional view ,because my elements started to 
+bump into each other so I decreased size of h3 to give more space to my elements in the contact form*/
+@media screen and (max-width: 1591px){
+    h3{
+        font-size:16px ;
+    }
+}
+/*2 view Laptop*/
+@media screen and (max-width: 1143px){
+    /*I have changed display options to make elements go after each other*/
+    .body{
+        display:block;
+        background-position:200px 300px;
+        background-size: 420px 307px;
+        height:1300px;
+    }
+    /*I also removed the float*/
+    .info{
+        float: none;
+        width: 80%;
+    }
+    .contact-form{
+        margin-top:300px ;
+        float: none;
+        width:80%;
+        
+    }
+ /*I have changed display options to make elements go after each other*/
+    .footer_container{
+        display:block;
+    }
+ /*I have increased the button since it is bigger in this view*/
+    .footer_btn{
+        width:40%;
+    }
+    .footer_icons_2{
+        float: none;
+    }
+    /*I have aligned the icons*/
+    .footer_icons{
+        width:50%; 
+        margin: 0 auto;
+        
+    }
+
+}
+ /*Mobile view*/
+@media screen and (max-width:560px){
+     /*Different picture size*/
+.body{
+    background-position:100px 300px;
+    background-size: 300px 520px;
+    height:1350px ;
+}
+.footer_contact_form{
+display: block;
+}
+/*I have increased the button since it is bigger in this view*/
+.footer_btn{
+    width:100%;
+}
+/*I have changed the display option for separate button from the inputs*/
+.inputs{
+    display: flex;
+}
+#input2{
+    float: left;
+    width:30% ;
+   }
+#input3{
+    float: right;
+    width:70%;
+}
+/*I have changed the width of icons to make them more suitable for this view*/
+.footer_icons{
+    width:60%; 
+    margin: 0 auto;}
+}
