@@ -145,6 +145,7 @@ input {
     font-size:18px;
     opacity:80%;
     box-shadow: #333131 5 10 15;
+    stroke-width: 2px;
 }
 
 #checkbox{
@@ -171,7 +172,7 @@ input {
 
 .contact2-form-p{
     font-size: 15px;
-    font-weight:normal;
+    font-weight:100;
     margin-top:15px;
 }
 
