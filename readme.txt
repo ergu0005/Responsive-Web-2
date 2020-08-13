@@ -1,1 +1,0 @@
-During the development of this website, the main obstacle was the resume page. The task was not only to show my skills in a simple resume page but also to give the potential employer opportunity to download and save it. The solution was simple, I just put my file into the google disk and linked to that document.
